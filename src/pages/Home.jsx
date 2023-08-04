@@ -6,28 +6,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import { AiOutlineSafety, AiOutlineIssuesClose, AiOutlineTool, AiOutlineWhatsApp } from "react-icons/ai";
 import { BiLogoTiktok, BiLogoInstagramAlt, BiLogoLinkedin } from "react-icons/bi";
+import Header from '../components/Header';
 
 function App() {
   return (
     <>
-      <header className="selig-header">
-        <nav>
-          <Link>
-            <img src={ logo } alt='nome SeLiG em laranja' style={{ width: "20%", marginLeft: "20%"}} />
-          </Link>
-          <ul className='d-flex justify-content-around align-items-center' style={{ width: "50%", margin: "0" }}>
-            <li>
-              <Link to='/selig'> A SeLiG </Link>
-            </li>
-            <li>
-              <a href='#services'> Nossos Serviços </a>
-            </li>
-            <li>
-              <Link to='/'> Contato </Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
+    <Header />
       <main>
         <div className='whatsapp-icon'>
         <AiOutlineWhatsApp />
@@ -132,9 +116,9 @@ function App() {
         <p> Copyright © 2006-2023 SELIG. Todos os direitos reservados. </p>
         </div>
         <div>
-          <Link>
+          <a target="_blank" rel='noopener noreferrer'href='https://www.instagram.com/assistenciaselig/'>
             <BiLogoInstagramAlt />
-          </Link>
+          </a>
           <Link>
             <BiLogoTiktok />
           </Link>

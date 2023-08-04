@@ -1,12 +1,12 @@
 import assistence from '../assets/pexels-mart-production-7709179.jpg';
 import '../App.css';
 import { Link } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.css';
-import Carousel from 'react-bootstrap/Carousel';
 import { AiOutlineSafety, AiOutlineIssuesClose, AiOutlineTool, AiOutlineWhatsApp } from "react-icons/ai";
 import { BiLogoTiktok, BiLogoInstagramAlt, BiLogoLinkedin } from "react-icons/bi";
 import Header from '../components/Header';
+import Carrousel from '../components/Carrousel';
 import Footer from '../components/Footer';
+import BrandsSection from '../components/BrandsSection';
 
 function App() {
   return (
@@ -16,24 +16,7 @@ function App() {
         <div className='whatsapp-icon'>
         <AiOutlineWhatsApp />
         </div>
-      <div>
-        <Carousel>
-        <Carousel.Item interval={4000}>
-          <img
-            className='banner'
-            src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
-            alt="Image One"
-          />
-        </Carousel.Item>
-        <Carousel.Item interval={4000}>
-          <img
-            className='banner'
-            src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-            alt="Image Two"
-          />
-        </Carousel.Item>
-        </Carousel>
-      </div>
+        <Carrousel />
       <div className='our-service' id='services'>
         <h2 className='h-config h2-config'> Nossos Serviços </h2>
 
@@ -80,9 +63,7 @@ function App() {
         </div>
       </div>
       <div className='divisor'><div/><div/><div/><div/></div>
-      <div className='brands'>
-        <h2 className='h-config h2-config'> Nossa Assistência Técnica </h2>
-      </div>
+      <BrandsSection />
       <div className='social-area'>
         <h2 className='h-config h2-config'> Siga Nossas Redes Sociais </h2>
         <div>

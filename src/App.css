@@ -1,42 +1,312 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  list-style-type: none;
+  color: inherit;
+  text-decoration: none;  
+}
+
+.selig-header {
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+  width: 100%;
+}
+
+.selig-header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+}
+
+.selig-header nav a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.banner {
+  width: 100%;
+  height: 70vh;
+}
+
+.our-service {
+  width: 100%;
+  height: 90vh;
+  margin-top: 3%;
+}
+
+.home-card {
+  height: 70vh;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.home-card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.home-card div {
+  width: 90%;
+}
+
+.home-card p:nth-of-type(1) {
+  font-size: 1.5em;
+}
+
+.home-card p:nth-of-type(2) {
+  color: #8A8A8A;
+  font-size: 1em;
+}
+
+.know-more-btn{
+  color: #fff;
+  border: 3px solid #ad0303;
+  background-image: -webkit-linear-gradient(30deg, #ad0303 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #ad0303 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  border-radius: 10px;
+  width: 30%;
+  height: 10%;
+  cursor: pointer;
+}
+
+.know-more-btn:hover {
+  background-position: 100%;
+  color: #ad0303;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.whatsapp-icon{
+	position:fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.pre-os {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  margin-top: 5%;
+}
+
+.pre-os div:nth-of-type(1) {
+  height: 100%;
+  width: 50%;
+}
+
+.pre-os div:nth-of-type(1) img {
+  height: 100%;
+}
+
+.meet-pre-os {
+  background-color: white;
+  height: 60%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.meet-pre-os button {
+  margin-bottom: 10%;
+}
+
+.see-pre-os {
+  background-color: white;
+  bottom: 0;
+  height: 50%;
+  right: 0;
+  position: absolute;
+  width: 50vw;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pre-os-p {
+  width: 80%;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.os-button {
+  background-color: #00000088;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divisor {
+  width: 100%;
+  height: 8vh;
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.divisor div:nth-of-type(1) {
+  background-color: #ee0303;
+  width: 25%;
+  height: 100%;
 }
 
-.card {
-  padding: 2em;
+.divisor div:nth-of-type(2) {
+  background-color: #c70101;
+  width: 25%;
+  height: 100%;
 }
 
-.read-the-docs {
-  color: #888;
+.divisor div:nth-of-type(3) {
+  background-color: #a50202;
+  width: 25%;
+  height: 100%;
+}
+
+.divisor div:nth-of-type(4) {
+  background-color: #750202;
+  width: 25%;
+  height: 100%;
+}
+
+.brands {
+  align-items: center;
+  background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  height: 102vh;
+}
+
+.social-area {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.social-area div {
+  margin: 2%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-area div a {
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selig-footer {
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.selig-footer img {
+  width: 15%;
+}
+
+.selig-footer div:nth-of-type(1) {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selig-footer div:nth-of-type(2) {
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+}
+
+.selig-footer div:nth-of-type(2) div:nth-of-type(1) {
+  display: flex;
+  width: 45%;
+  font-size: 1.1em;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.selig-footer div:nth-of-type(2) div:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.selig-footer div:nth-of-type(2) div:nth-of-type(2) a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000079; 
+  color: #e6e6e6;
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  font-size: 2.8em;
+  border-radius: 15px;
+}
+
+.selig-footer p {
+  color: #00000079;
+  margin: 0;
+}
+
+.selig-footer p span {
+  color: #000
+}
+
+.h-config {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2-config {
+  font-size: 2.7em;
+  font-weight: bolder;
+}
+
+.h3-config {
+  font-size: 2.3em;
 }

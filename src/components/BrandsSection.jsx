@@ -20,7 +20,7 @@ function BrandsSection() {
             <div>  
               <img src={ lgLogo } className={ styles.brand }/>
             </div>
-            <Link>SAIBA MAIS</Link>
+            <Link to='/lg'>SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>

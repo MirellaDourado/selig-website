@@ -5,7 +5,7 @@ import { BiLogoTiktok, BiLogoInstagramAlt, BiLogoLinkedin } from "react-icons/bi
 
 function Footer() {
   return(
-    <footer className='selig-footer'>
+    <footer className='selig-footer' id='footer'>
       <div>
         <p> A SeLiG </p>
         <p> Assistência técnica autorizada para produtos fora de garantia </p>

@@ -11,7 +11,7 @@ import BrandsSection from '../components/BrandsSection';
 function App() {
   return (
     <>
-    <Header />
+    <Header boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px'} />
       <main>
         <div className='whatsapp-icon'>
         <AiOutlineWhatsApp />

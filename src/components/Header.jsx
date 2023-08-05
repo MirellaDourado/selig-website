@@ -1,15 +1,16 @@
 import { Link } from 'react-router-dom';
 import logo from '../assets/selig-logo.png';
-import '../App.css';
+import style from './header.module.css';
+import PropTypes from 'prop-types';
 
-function Header() {
+function Header({ boxShadow }) {
   return(
-    <header className="selig-header">
+    <header className={ style.seligHeader } style={ boxShadow ? { boxShadow } : null }>
       <nav>
         <Link>
-          <img src={ logo } alt='nome SeLiG em laranja' style={{ width: "20%", marginLeft: "20%"}} />
+          <img src={ logo } alt='nome SeLiG em laranja' />
         </Link>
-        <ul className='d-flex justify-content-around align-items-center' style={{ width: "50%", margin: "0" }}>
+        <ul>
           <li>
             <Link to='/selig'> A SeLiG </Link>
           </li>
@@ -17,12 +18,16 @@ function Header() {
             <a href='#services'> Nossos Serviços </a>
           </li>
           <li>
-            <Link to='/'> Contato </Link>
+            <a href='#footer'> Contato </a>
           </li>
         </ul>
       </nav>
     </header>
   )
+}
+
+Header.propTypes = {
+  boxShadow: PropTypes.string
 }
 
 export default Header;

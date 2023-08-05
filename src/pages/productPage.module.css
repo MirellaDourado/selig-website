@@ -4,13 +4,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px red solid;
+  justify-content: space-between;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.78) 100%), url(../assets/pexels-sergei-starostin-6636497.jpg), lightgray 50% / cover no-repeat;
+  background-position: center;
+  color: white;
+  background-size: cover;
   margin-bottom: 5em;
+  height: 35vh;
 }
 
 .headerSection > h2  {
   font-size: 3em;
   margin: 0.4em;
+  font-weight: normal;
+  letter-spacing: 0.15em;
 }
 
 .warrantySection {
@@ -60,25 +67,33 @@
   border: 2px green solid;
   margin: auto;
   margin-bottom: 3em;
+  justify-content: space-between;
+}
+
+.brandArea > p {
+  width: 45%;
+  text-align: justify;
+}
+
+.brandArea > img {
+  width: 50%
 }
 
 .contact {
   width: 90%;
   margin: auto;
-  /* border: 2px red solid; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
   height: 55vh;
-  /* padding: 2em; */
 }
 
 .contact > button {
   background-color: #23C25D;
   border: none;
-  padding: 1em;
   color: black;
+  font-size: 1.1em;
 }
 
 .contact > p {
@@ -91,6 +106,11 @@
   font-variant: small-caps;
   letter-spacing: 0.10em;
   width: 80%;
-  /* margin: auto; */
-  /* border: 2px green solid; */
+  font-size: 1.3em;
+}
+
+.btnIcon {
+  color: white;
+  font-size: 3em;
+  margin-left: 0.25em;
 }

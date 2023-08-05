@@ -2,12 +2,13 @@ import Header from '../components/Header';
 import PropTypes from 'prop-types';  
 import Footer from '../components/Footer';
 import style from './productPage.module.css';
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
 function ProductPage({ title, warranty, description }) {
   return(
     <>
       <section className={ style.headerSection }>
-        <Header/>
+        <Header />
         <h2> Assistência Técnica { title }</h2>
       </section>
       <main>
@@ -49,7 +50,7 @@ function ProductPage({ title, warranty, description }) {
         <section className={ style.contact }>
           <h4> Entre agora em contato que iremos te ajudar! </h4>
           <p> A Selig está qualificada para oferecer o conserto de produtos lg, realizando tanto reparos básicos como de alta complexidade, oferecendo profissionais competentes e qualificados. </p>
-          <button> Entre em contato com a nossa equipe </button>
+          <button> Entre em contato com a nossa equipe <AiOutlineWhatsApp className={ style.btnIcon }/> </button>
         </section>
       </main>
       <Footer />

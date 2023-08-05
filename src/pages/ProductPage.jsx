@@ -22,7 +22,7 @@ function ProductPage({ title, warranty, description }) {
           {
             warranty.with1 ?
             <div>
-              <h4> ASSISTÊNCIA COM GARANTIA </h4>
+              <h4> ASSISTÊNCIA DENTRO DA GARANTIA </h4>
               <ul>
                 <div>
                   { warranty.with1.map((w) => (<li key={ w }> { w } </li>))}
@@ -35,7 +35,7 @@ function ProductPage({ title, warranty, description }) {
             : null
           }
           <div>
-            <h4> ASSISTÊNCIA SEM GARANTIA </h4>
+            <h4> ASSISTÊNCIA FORA DA GARANTIA </h4>
             <ul>
               <div>
               { warranty.without1.map((w) => (<li key={ w }> { w } </li>))}
@@ -60,12 +60,12 @@ function ProductPage({ title, warranty, description }) {
 
 ProductPage.propTypes = {
   title: PropTypes.string.isRequired,
-  warranty: {
+  warranty: PropTypes.shape({
     with1: PropTypes.array,
     with2: PropTypes.array,
     without1: PropTypes.array.isRequired,
     without2: PropTypes.array,
-  },
+  }),
   description: PropTypes.string.isRequired,
 }
 

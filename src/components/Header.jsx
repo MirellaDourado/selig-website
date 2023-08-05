@@ -7,7 +7,7 @@ function Header({ boxShadow }) {
   return(
     <header className={ style.seligHeader } style={ boxShadow ? { boxShadow } : null }>
       <nav>
-        <Link>
+        <Link to='/'>
           <img src={ logo } alt='nome SeLiG em laranja' />
         </Link>
         <ul>

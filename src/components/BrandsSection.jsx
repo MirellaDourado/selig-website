@@ -1,4 +1,4 @@
-import styles from '../pages/home.module.css';
+import styles from '../styles/brands.module.css';
 import lgLogo from '../assets/lg-logotipo.png';
 import samsungLogo from '../assets/Samsung-Logo.png';
 import motorolaLogo from '../assets/Motorola-Logo-2.png';
@@ -24,13 +24,13 @@ function BrandsSection() {
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ samsungLogo } className={ styles.brand } style={ { width: '8em'}}/>
+              <img src={ samsungLogo } className={ styles.brand } style={ { width: '7em'}}/>
             </div>
             <Link>SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ motorolaLogo } className={ styles.brand } style={ { width: '11em'}}/>
+              <img src={ motorolaLogo } className={ styles.brand } style={ { width: '8em'}}/>
             </div>
             <Link>SAIBA MAIS</Link>
           </div>
@@ -42,7 +42,7 @@ function BrandsSection() {
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ appleLogo } className={ styles.brand } style={ { width: '5.5em' }} />
+              <img src={ appleLogo } className={ styles.brand } style={ { width: '3.5em' }} />
             </div>
             <Link> SAIBA MAIS</Link>
           </div>
@@ -56,7 +56,7 @@ function BrandsSection() {
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ philipsLogo } className={ styles.brand } style={ { width: '8em' }}  />
+              <img src={ philipsLogo } className={ styles.brand } style={ { width: '6em' }}  />
             </div>
             <Link> SAIBA MAIS</Link>
           </div>
@@ -68,7 +68,7 @@ function BrandsSection() {
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ positivoLogo } className={ styles.brand } style={{ width: '9.5em' }} />
+              <img src={ positivoLogo } className={ styles.brand } style={{ width: '7.5em' }} />
             </div>
             <Link> SAIBA MAIS</Link>
           </div>

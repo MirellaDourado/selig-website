@@ -13,9 +13,9 @@ function App() {
     <>
     <Header boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px'} />
       <main>
-        <div className='whatsapp-icon'>
+        <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0' className='whatsapp-icon'>
         <AiOutlineWhatsApp />
-        </div>
+        </a>
         <Carrousel />
       <div className='our-service' id='services'>
         <h2 className='h-config h2-config'> Nossos Serviços </h2>

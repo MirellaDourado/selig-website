@@ -6,6 +6,7 @@ function SocialArea() {
   return(
     <div className='social-area'>
         <h2 className='h-config h2-config'> Siga Nossas Redes Sociais </h2>
+        <hr className='hr'/>
         <div>
           <a target="_blank" rel='noopener noreferrer'href='https://www.instagram.com/assistenciaselig/'>
             <BiLogoInstagramAlt fontSize='2.5em'/>

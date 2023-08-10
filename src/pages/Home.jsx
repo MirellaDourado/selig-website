@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import BrandsSection from '../components/BrandsSection';
 import styles from '../styles/home.module.css';
 import PreOs from '../components/PreOs';
-import SocialArea from '../components/SocialAres';
+import SocialArea from '../components/SocialAreas';
 
 function App() {
   return (

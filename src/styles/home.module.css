@@ -37,25 +37,3 @@
   color: #8A8A8A;
   font-size: 1em;
 }
-
-/* .know-more-btn{
-  color: #fff;
-  border: 3px solid #ad0303;
-  background-image: -webkit-linear-gradient(30deg, #ad0303 50%, transparent 50%);
-  background-image: linear-gradient(30deg, #ad0303 50%, transparent 50%);
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: 0%;
-  -webkit-transition: background 300ms ease-in-out;
-  transition: background 300ms ease-in-out;
-  border-radius: 10px;
-  width: fit-content;
-  height: 10%;
-  cursor: pointer;
-} */
-
-/* .know-more-btn:hover {
-  background-position: 100%;
-  color: #ad0303;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-} */

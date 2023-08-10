@@ -13,7 +13,6 @@
 	position:fixed;
 	width: 60px;
 	height: 60px;
-	bottom: 40px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -47,6 +46,7 @@
 @media (max-width: 480px) {
   .whatsapp-icon{
     right: 10px;
+    bottom: 25vh;
   }
 
   .h2-config {
@@ -68,6 +68,7 @@
 
   .whatsapp-icon{
     right: 40px;
+    bottom: 40px;
   }
 /* .divisor {
   width: 100%;

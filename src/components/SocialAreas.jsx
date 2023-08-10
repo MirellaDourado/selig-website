@@ -5,7 +5,7 @@ import style from '../styles/socialArea.module.css';
 
 function SocialArea() {
   return(
-    <div className={ style.socialArea }>
+    <div className={ style.socialArea } id="contact">
         <h2 className='h-config h2-config'> Siga Nossas Redes Sociais </h2>
         <hr className='hr'/>
         <div>

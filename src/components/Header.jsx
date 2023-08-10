@@ -29,7 +29,7 @@ function Header({ boxShadow }) {
               <a href='#services'> Nossos Serviços </a>
             </li>
             <li>
-              <a href='#footer'> Contato </a>
+              <a href='#contact'> Contato </a>
             </li>
           </ul>
         </nav>

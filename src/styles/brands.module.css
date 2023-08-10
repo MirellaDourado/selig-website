@@ -3,9 +3,9 @@
   display: flex;
   flex-direction: column;
   padding: 1.5em;
-  /* border: 2px red solid; */
   width: 90%;
   margin: auto;
+  margin-top: 2.5em;
 }
 
 .brandsWrapper > div {

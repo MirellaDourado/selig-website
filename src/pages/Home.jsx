@@ -1,4 +1,3 @@
-import assistence from '../assets/pexels-mart-production-7709179.jpg';
 import '../App.css';
 import { Link } from 'react-router-dom'
 import { AiOutlineSafety, AiOutlineIssuesClose, AiOutlineTool, AiOutlineWhatsApp } from "react-icons/ai";
@@ -8,6 +7,7 @@ import Carrousel from '../components/Carrousel';
 import Footer from '../components/Footer';
 import BrandsSection from '../components/BrandsSection';
 import styles from '../styles/home.module.css';
+import PreOs from '../components/PreOs';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <AiOutlineWhatsApp />
         </a>
         <Carrousel />
-      <div className={ styles.ourService } id='services'>
+      <section className={ styles.ourService } id='services'>
         <h2 className='h-config h2-config'> Nossos Serviços </h2>
         <hr className='hr' />
 
@@ -50,20 +50,8 @@ function App() {
             <button className='know-more-btn'> Saiba mais </button>
           </div>
         </div>
-      </div>
-      <div className='pre-os'>
-        <div> <img src={ assistence } alt='' /> </div>
-        <div className='meet-pre-os'>
-          <h2 className='h-config h3-config'> Conheça a pre-OS </h2>
-          <p className='pre-os-p'>Agilize o seu atendimento no momento da visita a nossa loja utilizando a pre-OS. Você poderá agendar sua assistência de uma maneira mais rápida e personalizada, podendo verificar o andamento do seu equipamente preenchendo o formulário.</p>
-          <button className='os-button'> Preencher OS </button>
-        </div>
-        <div className='see-pre-os'>
-          <h2 className='h-config h3-config'> Consulte sua OS </h2>
-          <p className='pre-os-p' > Caso já tenha preenchido uma pre-OS e deseje saber o andamento da nossa assistência, clique no botão abaixo, informe o seu nome e o número da OS que deseja ver. </p>
-          <button className='os-button'> Consultar OS </button>
-        </div>
-      </div>
+      </section>
+      <PreOs />
       <div className='divisor'><div/><div/><div/><div/></div>
       <BrandsSection />
       <div className='social-area'>

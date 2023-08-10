@@ -19,7 +19,7 @@ function BrandsSection() {
         <div>
           <div className={ styles.brandWrapper }>
             <div>  
-              <img src={ lgLogo } className={ styles.brand }/>
+              <img src={ lgLogo } className={ styles.brand }  style={ { width: '7em'}}/>
             </div>
             <Link to='/lg'>SAIBA MAIS</Link>
           </div>
@@ -37,7 +37,7 @@ function BrandsSection() {
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ aocLogo } className={ styles.brand } />
+              <img src={ aocLogo } className={ styles.brand }  style={ { width: '7em'}}/>
             </div>
             <Link> SAIBA MAIS</Link>
           </div>
@@ -51,7 +51,7 @@ function BrandsSection() {
         <div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ philcoLogo } className={ styles.brand } />
+              <img src={ philcoLogo } className={ styles.brand }  style={ { width: '7em'}} />
             </div>
             <Link> SAIBA MAIS</Link>
           </div>
@@ -63,7 +63,7 @@ function BrandsSection() {
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ tclLogo } className={ styles.brand } />
+              <img src={ tclLogo } className={ styles.brand }  style={ { width: '7em'}}/>
             </div>
             <Link> SAIBA MAIS</Link>
           </div>

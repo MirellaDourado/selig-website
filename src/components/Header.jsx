@@ -18,9 +18,9 @@ function Header({ boxShadow }) {
       </section>
       <header className={ style.seligHeader } style={ boxShadow ? { boxShadow } : null }>
         <nav>
-          <Link to='/'>
+          {/* <Link to='/'>
             <img src={ logo } alt='nome SeLiG em laranja' />
-          </Link>
+          </Link> */}
           <ul>
             <li>
               <Link to='/selig'> A SeLiG </Link>

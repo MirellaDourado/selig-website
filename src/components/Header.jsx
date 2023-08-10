@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { BiLogoTiktok, BiLogoInstagramAlt, BiLogoLinkedin } from "react-icons/bi";
 import  { AiOutlineWhatsApp } from "react-icons/ai";
 import logo from '../assets/selig-logo.png';
-import style from './header.module.css';
+import style from '../styles/header.module.css';
 import PropTypes from 'prop-types';
 
 function Header({ boxShadow }) {

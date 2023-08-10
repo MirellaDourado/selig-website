@@ -48,7 +48,24 @@
 }
 
 .seePreOs > button, .meetPreOs > button {
-  background-color: #00000088;
+  color: #fff;
+  border: 3px solid #ad0303;
+  background-image: -webkit-linear-gradient(30deg, #ad0303 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #ad0303 50%, transparent 50%);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
   border-radius: 10px;
-  padding: 10px;
+  width: 20%;
+  height: 20%;
+  cursor: pointer;
+}
+
+
+.seePreOs > button:hover, .meetPreOs > button:hover {
+  background-position: 100%;
+  color: #ad0303;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }

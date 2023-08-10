@@ -23,7 +23,7 @@ function SocialArea() {
           </Link>
         </div>
         <button>
-          <p> Entre em contato com a nossa equipe <AiOutlineWhatsApp style={{ marginLeft: '0.2em' }} fontSize='1.3em'/> </p>
+          <p> Fale com a nossa equipe <AiOutlineWhatsApp style={{ marginLeft: '0.2em' }} fontSize='1.3em'/> </p>
         </button>
       </div>
   )

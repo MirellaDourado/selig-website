@@ -4,6 +4,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  font-weight: 500;
 }
 
 .headerSection > div {
@@ -14,9 +15,15 @@
   width: 50%;
 }
 
-.headerSection > div > p {
+.headerSection > div > a {
   margin: auto;
   font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  color: white;
+  text-decoration: none;
 }
 
 .seligHeader {

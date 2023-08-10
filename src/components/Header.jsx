@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import { BiLogoTiktok, BiLogoInstagramAlt, BiLogoLinkedin } from "react-icons/bi";
+import  { AiOutlineWhatsApp } from "react-icons/ai";
 import logo from '../assets/selig-logo.png';
 import style from './header.module.css';
 import PropTypes from 'prop-types';
@@ -8,10 +10,10 @@ function Header({ boxShadow }) {
     <>
       <section className={ style.headerSection }>
         <div>
-          <p> FALE CONOSCO </p>
-          <p> INSTAGRAM </p>
-          <p>  TIKTOK </p>
-          <p> LINKEDIN </p>
+          <a target="_blank" rel='noopener noreferrer'href='https://www.instagram.com/assistenciaselig/'> FALE CONOSCO <AiOutlineWhatsApp fontSize='1.2em'/> </a>
+          <a target="_blank" rel='noopener noreferrer'href='https://www.instagram.com/assistenciaselig/'> INSTAGRAM <BiLogoInstagramAlt fontSize='1.2em'/> </a>
+          <a target="_blank" rel='noopener noreferrer'href='https://www.tiktok.com/assistenciaselig/'>  TIKTOK <BiLogoTiktok fontSize='1.2em'/> </a>
+          <a target="_blank" rel='noopener noreferrer'href='https://www.linkedin.com/company/assistencia-selig/'> LINKEDIN <BiLogoLinkedin fontSize='1.2em' /> </a>
         </div>
       </section>
       <header className={ style.seligHeader } style={ boxShadow ? { boxShadow } : null }>

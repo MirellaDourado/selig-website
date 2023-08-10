@@ -1,10 +1,11 @@
 import { BiLogoTiktok, BiLogoInstagramAlt, BiLogoLinkedin } from "react-icons/bi";
+import  { AiOutlineWhatsApp } from "react-icons/ai";
 import { Link } from 'react-router-dom'
-
+import style from '../styles/socialArea.module.css';
 
 function SocialArea() {
   return(
-    <div className='social-area'>
+    <div className={ style.socialArea }>
         <h2 className='h-config h2-config'> Siga Nossas Redes Sociais </h2>
         <hr className='hr'/>
         <div>
@@ -21,6 +22,9 @@ function SocialArea() {
             <p> LinkedIn </p>
           </Link>
         </div>
+        <button>
+          <p> Entre em contato com a nossa equipe <AiOutlineWhatsApp style={{ marginLeft: '0.2em' }} fontSize='1.3em'/> </p>
+        </button>
       </div>
   )
 }

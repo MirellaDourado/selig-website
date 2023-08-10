@@ -1,26 +1,25 @@
 import logo from '../assets/selig-logo.png';
-import '../App.css';
 import { Link } from 'react-router-dom'
 import { BiLogoTiktok, BiLogoInstagramAlt, BiLogoLinkedin } from "react-icons/bi";
+import style from '../styles/footer.module.css';
 
 function Footer() {
   return(
-    <footer className='selig-footer' id='footer'>
+    <footer className={ style.seligFooter }>
       <div>
-        <p> A SeLiG </p>
-        <p> Assistência técnica autorizada para produtos fora de garantia </p>
-        <p> Assistência técnica autorizada para produtos fora de garantia </p>
-        <p> Assistência técnica especializada </p>
+        <Link> A SeLiG </Link>
+        <Link> Assistência técnica autorizada para produtos fora de garantia </Link>
+        <Link> Assistência técnica autorizada para produtos fora de garantia </Link>
+        <Link> Assistência técnica especializada </Link>
       </div>
       <div>
         <img src={ logo } alt='palavra SeLiG escrita na cor laranja' />
         <div>
-          <p> <span> Endereço: </span> Rua Bahia, 176 - Pituba, Salvador - BA, 41830-160</p>
-          <p> <span> Telefone: </span> (71) 2203-7800 </p>
-          <p> Copyright © 2006-2023 SELIG. Todos os direitos reservados. </p>
+          <a target="_blank" rel='noopener noreferrer' href='https://goo.gl/maps/XBSgCpbbJbU3ymFV6'> <span> Endereço: </span> Rua Bahia, 176 - Pituba, Salvador - BA, 41830-160</a>
+          <a> <span> Telefone: </span> (71) 2203-7800 </a>
         </div>
         <div>
-          <a target="_blank" rel='noopener noreferrer'href='https://www.instagram.com/assistenciaselig/'>
+          <a target="_blank" rel='noopener noreferrer' href='https://www.instagram.com/assistenciaselig/'>
             <BiLogoInstagramAlt />
           </a>
           <Link>
@@ -31,6 +30,7 @@ function Footer() {
           </Link>
         </div>
       </div>
+      <p style={{ fontSize: '0.8em' }}> Copyright © 2006-2023 SELIG. Todos os direitos reservados. </p>
     </footer>
   )  
 }

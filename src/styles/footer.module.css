@@ -1,30 +1,36 @@
-.selig-footer {
+.seligFooter {
   background-color: #e6e6e6;
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  height: 30vh;
   align-items: center;
   justify-content: space-around;
 }
 
-.selig-footer img {
+.seligFooter img {
   width: 15%;
 }
 
-.selig-footer div:nth-of-type(1) {
+.seligFooter a {
+  color: #000;
+  margin: 0;
+  text-decoration: none;
+}
+
+.seligFooter div:nth-of-type(1) {
   display: flex;
-  width: 95%;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.selig-footer div:nth-of-type(2) {
+.seligFooter div:nth-of-type(2) {
   display: flex;
   width: 95%;
   justify-content: space-around;
 }
 
-.selig-footer div:nth-of-type(2) div:nth-of-type(1) {
+.seligFooter div:nth-of-type(2) div:nth-of-type(1) {
   display: flex;
   width: 45%;
   font-size: 1.1em;
@@ -32,14 +38,14 @@
   align-items: flex-start;
 }
 
-.selig-footer div:nth-of-type(2) div:nth-of-type(2) {
+.seligFooter div:nth-of-type(2) div:nth-of-type(2) {
   display: flex;
   flex-direction: row;
   width: 20%;
   justify-content: space-around;
 }
 
-.selig-footer div:nth-of-type(2) div:nth-of-type(2) a {
+.seligFooter div:nth-of-type(2) div:nth-of-type(2) a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,11 +58,6 @@
   border-radius: 15px;
 }
 
-.selig-footer p {
-  color: #00000079;
-  margin: 0;
-}
-
-.selig-footer p span {
-  color: #000
+.seligFooter a span, .seligFooter p {
+  color: #00000079
 }

@@ -1,13 +1,12 @@
 import '../App.css';
-import { Link } from 'react-router-dom'
 import { AiOutlineSafety, AiOutlineIssuesClose, AiOutlineTool, AiOutlineWhatsApp } from "react-icons/ai";
-import { BiLogoTiktok, BiLogoInstagramAlt, BiLogoLinkedin } from "react-icons/bi";
 import Header from '../components/Header';
 import Carrousel from '../components/Carrousel';
 import Footer from '../components/Footer';
 import BrandsSection from '../components/BrandsSection';
 import styles from '../styles/home.module.css';
 import PreOs from '../components/PreOs';
+import SocialArea from '../components/SocialAres';
 
 function App() {
   return (
@@ -52,25 +51,9 @@ function App() {
         </div>
       </section>
       <PreOs />
-      <div className='divisor'><div/><div/><div/><div/></div>
+      {/* <div className='divisor'><div/><div/><div/><div/></div> */}
       <BrandsSection />
-      <div className='social-area'>
-        <h2 className='h-config h2-config'> Siga Nossas Redes Sociais </h2>
-        <div>
-          <a target="_blank" rel='noopener noreferrer'href='https://www.instagram.com/assistenciaselig/'>
-            <BiLogoInstagramAlt fontSize='2.5em'/>
-            <p> Instagram </p>
-          </a>
-          <Link>
-            <BiLogoTiktok fontSize='2.3em' />
-            <p> TikTok </p>
-          </Link>
-          <Link>
-            <BiLogoLinkedin fontSize='2.5em' />
-            <p> LinkedIn </p>
-          </Link>
-        </div>
-      </div>
+      <SocialArea />
       </main>
     <Footer />
     </>

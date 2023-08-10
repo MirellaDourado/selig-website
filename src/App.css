@@ -10,63 +10,7 @@
 
 .banner {
   width: 100%;
-  height: 70vh;
-}
-
-.our-service {
-  width: 100%;
-  height: 90vh;
-  margin-top: 3%;
-}
-
-.home-card {
-  height: 70vh;
-  width: 30%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
-.home-card:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-
-.home-card div {
-  width: 90%;
-}
-
-.home-card p:nth-of-type(1) {
-  font-size: 1.5em;
-}
-
-.home-card p:nth-of-type(2) {
-  color: #8A8A8A;
-  font-size: 1em;
-}
-
-.know-more-btn{
-  color: #fff;
-  border: 3px solid #ad0303;
-  background-image: -webkit-linear-gradient(30deg, #ad0303 50%, transparent 50%);
-  background-image: linear-gradient(30deg, #ad0303 50%, transparent 50%);
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: 0%;
-  -webkit-transition: background 300ms ease-in-out;
-  transition: background 300ms ease-in-out;
-  border-radius: 10px;
-  width: 40%;
-  height: 10%;
-  cursor: pointer;
-}
-
-.know-more-btn:hover {
-  background-position: 100%;
-  color: #ad0303;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  height: 60vh;
 }
 
 .whatsapp-icon{
@@ -115,70 +59,6 @@
   background-color: #750202;
   width: 25%;
   height: 100%;
-}
-
-.selig-footer {
-  background-color: #e6e6e6;
-  display: flex;
-  flex-direction: column;
-  height: 40vh;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.selig-footer img {
-  width: 15%;
-}
-
-.selig-footer div:nth-of-type(1) {
-  display: flex;
-  width: 95%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.selig-footer div:nth-of-type(2) {
-  display: flex;
-  width: 95%;
-  justify-content: space-around;
-}
-
-.selig-footer div:nth-of-type(2) div:nth-of-type(1) {
-  display: flex;
-  width: 45%;
-  font-size: 1.1em;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-
-.selig-footer div:nth-of-type(2) div:nth-of-type(2) {
-  display: flex;
-  flex-direction: row;
-  width: 20%;
-  justify-content: space-around;
-}
-
-.selig-footer div:nth-of-type(2) div:nth-of-type(2) a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #00000079; 
-  color: #e6e6e6;
-  height: 100%;
-  width: 30%;
-  text-align: center;
-  font-size: 2.8em;
-  border-radius: 15px;
-}
-
-.selig-footer p {
-  color: #00000079;
-  margin: 0;
-}
-
-.selig-footer p span {
-  color: #000
 }
 
 .h-config {

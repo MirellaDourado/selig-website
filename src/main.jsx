@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ReactDOM from 'react-dom/client'
 import Home from './pages/Home.jsx'
-import './index.css'
 import ProductPage from './pages/ProductPage.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -13,7 +13,7 @@ function Footer() {
         <Link> Assistência técnica especializada </Link>
       </div>
       <div>
-        {/* <img src={ logo } alt='palavra SeLiG escrita na cor laranja' /> */}
+        <img src={ logo } alt='palavra SeLiG escrita na cor laranja' />
         <div>
           <a target="_blank" rel='noopener noreferrer' href='https://goo.gl/maps/XBSgCpbbJbU3ymFV6'> <span> Endereço: </span> Rua Bahia, 176 - Pituba, Salvador - BA, 41830-160</a>
           <a target="_blank" rel='noopener noreferrer' href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0'> <span> Telefone: </span> (71) 2203-7800 </a>

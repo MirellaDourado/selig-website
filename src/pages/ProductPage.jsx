@@ -3,8 +3,13 @@ import PropTypes from 'prop-types';
 import Footer from '../components/Footer';
 import style from './productPage.module.css';
 import { AiOutlineWhatsApp } from "react-icons/ai";
+import {useEffect} from 'react'
 
 function ProductPage({ title, warranty, description }) {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return(
     <>
       <section className={ style.headerSection }>

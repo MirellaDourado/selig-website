@@ -1,5 +1,5 @@
 .seligFooter {
-  background-color: #e6e6e6;
+  background-color: #333333;
   display: flex;
   flex-direction: column;
   height: 30vh;
@@ -12,7 +12,7 @@
 }
 
 .seligFooter a {
-  color: #000;
+  color: #fff;
   margin: 0;
   text-decoration: none;
 }
@@ -49,15 +49,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #00000079; 
-  color: #e6e6e6;
-  height: 100%;
-  width: 30%;
+  background-color: #fff; 
+  color: #333333;
+  height: 1.5em;
+  width: 1.5em;
   text-align: center;
   font-size: 2.8em;
   border-radius: 15px;
 }
 
 .seligFooter a span, .seligFooter p {
-  color: #00000079
+  color: #ffffffc2
 }

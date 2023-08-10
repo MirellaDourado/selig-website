@@ -26,10 +26,10 @@ function Header({ boxShadow }) {
               <Link to='/selig'> A SeLiG </Link>
             </li>
             <li>
-              <a href='#services'> Nossos Serviços </a>
+              <a href='/#services'> Nossos Serviços </a>
             </li>
             <li>
-              <a href='#contact'> Contato </a>
+              <a href='/#contact'> Contato </a>
             </li>
           </ul>
         </nav>

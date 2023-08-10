@@ -7,6 +7,7 @@ import Header from '../components/Header';
 import Carrousel from '../components/Carrousel';
 import Footer from '../components/Footer';
 import BrandsSection from '../components/BrandsSection';
+import styles from '../styles/home.module.css';
 
 function App() {
   return (
@@ -17,20 +18,21 @@ function App() {
         <AiOutlineWhatsApp />
         </a>
         <Carrousel />
-      <div className='our-service' id='services'>
+      <div className={ styles.ourService } id='services'>
         <h2 className='h-config h2-config'> Nossos Serviços </h2>
+        <hr className='hr' />
 
-        <div className='d-flex justify-content-around'>
-          <div className='home-card'>
+        <div>
+          <div className={ styles.homeCard }>
             <AiOutlineSafety fontSize="6em" />
             <div>
-            <p>Assistência técnica autorizada para produtos fora de garantia</p>
+            <p>Assistência técnica autorizada para produtos dentro de garantia</p>
             <p>Descubra as marcas e produtos com assistência técnica e com garantia</p>
             </div>
             <button className='know-more-btn'> Saiba mais </button>
           </div>
 
-          <div className='home-card'>
+          <div className={ styles.homeCard }>
             <AiOutlineIssuesClose fontSize="6em"/>
             <div>
               <p> Assistência técnica autorizada para produtos fora de garantia </p>
@@ -39,7 +41,7 @@ function App() {
             <button className='know-more-btn'> Saiba mais </button>
           </div>
          
-          <div className='home-card'>
+          <div className={ styles.homeCard }>
             <AiOutlineTool fontSize="6em"/>
             <div>
               <p> Assistência técnica especializada </p>

@@ -1,16 +1,21 @@
 .brandsWrapper {
-  align-items: center;
-  background-color: #eeeeeee5;
+  /* background-color: #eeeeeea9; */
   display: flex;
   flex-direction: column;
-  height: 102vh;
+  padding: 1.5em;
+  /* border: 2px red solid; */
+  width: 90%;
+  margin: auto;
 }
 
 .brandsWrapper > div {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 1.5em;
+  margin: auto;
+  margin-top: 2.5em;
+  /* border: 2px red solid; */
 }
 
 .brandsWrapper > div > div{
@@ -21,7 +26,6 @@
   align-items: center;
   flex-wrap: wrap;
 }
-
 
 .brand {
   width: 5em;

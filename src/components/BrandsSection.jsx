@@ -14,6 +14,7 @@ function BrandsSection() {
   return(
     <section className={ styles.brandsWrapper}>
       <h2 className='h-config h2-config'> Nossa Assistência Técnica </h2>
+      <hr className='hr' />
       <div>
         <div>
           <div className={ styles.brandWrapper }>

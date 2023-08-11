@@ -41,6 +41,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* border: 2px red solid; */
 }
 
 @media (max-width: 480px) {
@@ -59,7 +60,7 @@ p {
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1919) {
+@media (min-width: 1200px) and (max-width: 1919px) {
 
   .socialArea > button {
     height: 15vh;
@@ -67,6 +68,6 @@ p {
   }
 
   .socialArea > div > a {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 }

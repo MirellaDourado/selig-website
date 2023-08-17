@@ -27,25 +27,25 @@ function BrandsSection() {
             <div>
               <img src={ samsungLogo } className={ styles.brand } style={ { width: '7em'}}/>
             </div>
-            <Link>SAIBA MAIS</Link>
+            <Link to='/samsung'>SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
               <img src={ motorolaLogo } className={ styles.brand } style={ { width: '8em'}}/>
             </div>
-            <Link>SAIBA MAIS</Link>
+            <Link to='/motorola'>SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
               <img src={ aocLogo } className={ styles.brand }  style={ { width: '7em'}}/>
             </div>
-            <Link> SAIBA MAIS</Link>
+            <Link to='/aoc'> SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
               <img src={ appleLogo } className={ styles.brand } style={ { width: '3.5em' }} />
             </div>
-            <Link> SAIBA MAIS</Link>
+            <Link to='/apple'> SAIBA MAIS</Link>
           </div>
         </div>
         <div>
@@ -53,25 +53,25 @@ function BrandsSection() {
             <div>
               <img src={ philcoLogo } className={ styles.brand }  style={ { width: '7em'}} />
             </div>
-            <Link> SAIBA MAIS</Link>
+            <Link to='/philco'> SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
               <img src={ philipsLogo } className={ styles.brand } style={ { width: '6em' }}  />
             </div>
-            <Link> SAIBA MAIS</Link>
+            <Link to='/philips'> SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
               <img src={ tclLogo } className={ styles.brand }  style={ { width: '7em'}}/>
             </div>
-            <Link> SAIBA MAIS</Link>
+            <Link to='/tcl'> SAIBA MAIS </Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
               <img src={ positivoLogo } className={ styles.brand } style={{ width: '7.5em' }} />
             </div>
-            <Link> SAIBA MAIS</Link>
+            <Link to='/positivo'> SAIBA MAIS </Link>
           </div>
         </div>
       </div>

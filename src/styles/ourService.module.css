@@ -6,6 +6,11 @@
 }
 .ourService > div:nth-of-type(1) { display: none;}
 
+.ourServiceCarousel {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
 .ourService > div {
   display: flex;
   justify-content: space-between;
@@ -25,13 +30,24 @@
 }
 
 .homeCard > div {
-  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.homeCard > div > p:nth-of-type(1) {
+  font-size: 1.5em;
+}
+
+.homeCard > div > p:nth-of-type(2) {
+  font-size: 1em;
+  color: #8A8A8A;
 }
 
 @media (min-width: 1200px) {  
   .icon {
     font-size: 6em;
-    border: 2px red solid;
   }
 
   .ourService > div:nth-of-type(2) {
@@ -61,15 +77,19 @@
 
 .homeCard div {
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .homeCard p:nth-of-type(1) {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .homeCard p:nth-of-type(2) {
   color: #8A8A8A;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .knowMoreBtn{

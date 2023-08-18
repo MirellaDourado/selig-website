@@ -12,38 +12,38 @@ function OurService() {
     <hr className='hr' />
     <div>
       <div className={ styles.homeCard }>
-        <AiOutlineSafety fontSize="6em" />
+        <AiOutlineSafety className={styles.icon} />
         <div>
-        <p>Assistência técnica autorizada para produtos dentro de garantia</p>
-        <p>Descubra as marcas e produtos com assistência técnica e com garantia</p>
+        <p>Assistência para produtos dentro de garantia</p>
+        <p>Descubra marcas e produtos com assistência técnica autorizada para produtos dentro da garantia</p>
         </div>
         <button className={ styles.knowMoreBtn }> Saiba mais </button>
       </div>
 
       <div className={ styles.homeCard }>
-        <AiOutlineIssuesClose fontSize="6em"/>
+        <AiOutlineIssuesClose className={styles.icon}/>
         <div>
-          <p> Assistência técnica autorizada para produtos fora de garantia </p>
-          <p> Descubra as marcas e produtos com assistência técnica e com garantia</p>
+          <p> Assistência para produtos fora de garantia </p>
+          <p> Descubra  marcas e produtos com assistência técnica autorizada para produtos fora da garantia</p>
         </div>
         <button className={ styles.knowMoreBtn }> Saiba mais </button>
       </div>
      
       <div className={ styles.homeCard }>
-        <AiOutlineTool fontSize="6em"/>
+        <AiOutlineTool className={styles.icon}/>
         <div>
           <p> Assistência técnica especializada </p>
-          <p> Descubra as marcas e produtos com assistência técnica e com garantia </p>
+          <p> Descubra as marcas e produtos com assistência técnica especializada </p>
         </div>
         <button className={styles.knowMoreBtn}> Saiba mais </button>
       </div>
     </div>
-    <Carousel className={ styles.ourServiceCarousel } interval={3000} variant='dark' controls={false} style={{ borderRadius: '15px', width: '100%', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 12px;'}}>
+    <Carousel className={ styles.ourServiceCarousel } interval={3000} variant='dark' controls={false}>
       <Carousel.Item >
         <Link className={ styles.homeCard } to={'/dentro-de-garantia'}>
           <AiOutlineSafety fontSize="6em" />
           <div>
-          <p>Assistência técnica autorizada para produtos dentro de garantia</p>
+          <p>Assistência autorizada para produtos dentro de garantia</p>
           <p>Descubra as marcas e produtos com assistência técnica e com garantia</p>
           </div>
         </Link>
@@ -52,7 +52,7 @@ function OurService() {
         <a className={ styles.homeCard } to={'fora-de-garantia'}>
           <AiOutlineIssuesClose fontSize="6em"/>
           <div>
-            <p> Assistência técnica autorizada para produtos fora de garantia </p>
+            <p> Assistência autorizada para produtos fora de garantia </p>
             <p> Descubra as marcas e produtos com assistência técnica e com garantia</p>
           </div>
         </a>

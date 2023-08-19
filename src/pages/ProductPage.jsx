@@ -12,9 +12,9 @@ function ProductPage({ title, warranty, description }) {
 
   return(
     <>
+      <Header />
       <section className={ style.headerSection }>
-        <Header />
-        <h2> Assistência Técnica { title }</h2>
+        <h2> { title }</h2>
       </section>
       <main>
         <section className={ style.brandArea }>
@@ -27,7 +27,7 @@ function ProductPage({ title, warranty, description }) {
           {
             warranty.with1 ?
             <div>
-              <h4> ASSISTÊNCIA DENTRO DA GARANTIA </h4>
+              <h4> DENTRO DA GARANTIA </h4>
               <ul>
                 <div>
                   { warranty.with1.map((w) => (<li key={ w }> { w } </li>))}
@@ -40,7 +40,7 @@ function ProductPage({ title, warranty, description }) {
             : null
           }
           <div>
-            <h4> ASSISTÊNCIA FORA DA GARANTIA </h4>
+            <h4> FORA DA GARANTIA </h4>
             <ul>
               <div>
               { warranty.without1.map((w) => (<li key={ w }> { w } </li>))}
@@ -54,7 +54,7 @@ function ProductPage({ title, warranty, description }) {
         </section>
         <section className={ style.contact }>
           <h4> Entre agora em contato que iremos te ajudar! </h4>
-          <p> A Selig está qualificada para oferecer o conserto de produtos lg, realizando tanto reparos básicos como de alta complexidade, oferecendo profissionais competentes e qualificados. </p>
+          <p> A Selig está qualificada para oferecer o conserto, realizando tanto reparos básicos como de alta complexidade. </p>
           <button> Entre em contato com a nossa equipe <AiOutlineWhatsApp className={ style.btnIcon }/> </button>
         </section>
       </main>

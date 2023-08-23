@@ -5,7 +5,7 @@ import style from './productPage.module.css';
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import {useEffect} from 'react'
 
-function ProductPage({ title, warranty, description }) {
+function BrandPage({ title, warranty, description }) {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, []);
@@ -63,7 +63,7 @@ function ProductPage({ title, warranty, description }) {
   )
 }
 
-ProductPage.propTypes = {
+BrandPage.propTypes = {
   title: PropTypes.string.isRequired,
   warranty: PropTypes.shape({
     with1: PropTypes.array,
@@ -74,4 +74,4 @@ ProductPage.propTypes = {
   description: PropTypes.string.isRequired,
 }
 
-export default ProductPage;
+export default BrandPage;

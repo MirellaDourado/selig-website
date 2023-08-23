@@ -17,7 +17,9 @@ function OurService() {
         <p>Assistência para produtos dentro de garantia</p>
         <p>Descubra marcas e produtos com assistência técnica autorizada para produtos dentro da garantia</p>
         </div>
-        <button className={ styles.knowMoreBtn }> Saiba mais </button>
+        <Link to={'/dentro-de-garantia'} class={ styles.knowMoreBtn }>
+          Saiba mais
+        </Link>
       </div>
 
       <div className={ styles.homeCard }>
@@ -26,7 +28,9 @@ function OurService() {
           <p> Assistência para produtos fora de garantia </p>
           <p> Descubra  marcas e produtos com assistência técnica autorizada para produtos fora da garantia</p>
         </div>
-        <button className={ styles.knowMoreBtn }> Saiba mais </button>
+        <Link to={'/fora-de-garantia'} class={ styles.knowMoreBtn }>
+          Saiba mais
+        </Link>
       </div>
      
       <div className={ styles.homeCard }>
@@ -35,7 +39,9 @@ function OurService() {
           <p> Assistência técnica especializada </p>
           <p> Descubra as marcas e produtos com assistência técnica especializada </p>
         </div>
-        <button className={styles.knowMoreBtn}> Saiba mais </button>
+        <Link to={'/especializada'} class={ styles.knowMoreBtn }>
+          Saiba mais
+        </Link>
       </div>
     </div>
     <Carousel className={ styles.ourServiceCarousel } interval={3000} variant='dark' controls={false}>

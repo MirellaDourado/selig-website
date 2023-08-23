@@ -1,3 +1,14 @@
+import lgLogo from './assets/lg-logotipo.png';
+import samsungLogo from './assets/Samsung-Logo.png';
+import motorolaLogo from './assets/Motorola-Logo-2.png';
+import aocLogo from './assets/aoc-logo-1.png';
+import appleLogo from './assets/Apple_logo_black.svg.png'
+import philcoLogo from './assets/philco-logo.png'
+import philipsLogo from './assets/Philips_logo_new.svg.png';
+import tclLogo from './assets/tcl-logo-2.png'
+import positivoLogo from './assets/positivo-logo.png'
+
+
 export const brandsArray = [
   { title: 'LG',
   warranty: {
@@ -55,4 +66,22 @@ export const brandsArray = [
   description:'A Apple Inc. é uma empresa de tecnologia americana fundada em 1976 por Steve Jobs, Steve Wozniak e Ronald Wayne. A Apple se tornou conhecida por seus computadores pessoais revolucionários, como o Apple II e o Macintosh, que introduziram recursos inovadores e interfaces amigáveis. Nos anos 2000, a Apple lançou produtos icônicos, como o iPod, iPhone e iPad, que transformaram as indústrias de música, telefonia móvel e tablets. A empresa também expandiu seus negócios para serviços e wearables, mantendo um foco na integração entre hardware, software e design elegante. A Apple é reconhecida por seu impacto duradouro na indústria de tecnologia e sua base de fãs leais em todo o mundo.',
   path: '/apple'
   },
+]
+
+export const serviceArray = [
+  { title: 'Assistência para produtos em garantia',
+    description: '',
+    path: '/dentro-de-garantia',
+    brands: [{src: lgLogo, alt: 'Logo da LG'}, {src: tclLogo, alt: 'Logo da TLC'}, {src: aocLogo, alt: 'Logo da AOC'}, {src: positivoLogo, alt: 'Logo da Positivo'}]},
+  { title: 'Assistência para produtos fora de garantia',
+    description: '',
+    path: '/fora-de-garantia',
+    brands: [{src: lgLogo, alt: 'Logo da LG'}, {src: motorolaLogo,  alt: 'Logo da Motorola'} , {src: positivoLogo, alt: 'Logo da Positivo'}, {src: samsungLogo, alt: 'Logo da Samsung'}, {src: philipsLogo, alt: 'Logo da Philips'}, {src: aocLogo, alt: 'Logo da AOC'}, {src: tclLogo, alt: 'Logo da TCL'}, {src: philcoLogo, alt: 'Logo da Philco'}, {src: appleLogo, alt: 'Logo da Apple'}]
+  },
+  {title: 'Epecializada',
+    description: '',
+    path:'/especializada',
+    brands: [],
+  }
+
 ]

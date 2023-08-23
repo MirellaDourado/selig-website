@@ -9,6 +9,7 @@ import philipsLogo from '../assets/Philips_logo_new.svg.png';
 import tclLogo from '../assets/tcl-logo-2.png'
 import { Link } from 'react-router-dom';
 import positivoLogo from '../assets/positivo-logo.png'
+import { logosArray } from '../data';
 
 function BrandsSection() {
   return(
@@ -73,6 +74,27 @@ function BrandsSection() {
             </div>
             <Link to='/positivo'> SAIBA MAIS </Link>
           </div>
+        </div>
+      </div>
+      <div className={styles.brandsCarousel}>
+        <div>
+          {logosArray.map(({ src, alt, href }) => (
+            <div
+              className={styles.cardWrapper}
+              key={alt + href}
+              >
+              <a href={href} className={styles.card}>
+                <img
+                  src={src}
+                  alt={alt}
+                  width="60px"
+                />
+                <p>
+                  Saiba mais
+                </p>
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>

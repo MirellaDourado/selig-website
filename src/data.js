@@ -83,5 +83,16 @@ export const serviceArray = [
     path:'/especializada',
     brands: [],
   }
+]
 
+export const logosArray = [
+  { src: lgLogo, alt: 'LG', href:'/lg' },
+  { src: samsungLogo, alt: 'Samsung', href:'/samsung' },
+  { src: motorolaLogo, alt: 'Motorola', href:'/motorola' },
+  { src: aocLogo, alt: 'AOC', href:'/aoc' },
+  { src: appleLogo, alt: 'Apple', href:'/apple' },
+  { src: philcoLogo, alt: 'Philco', href:'/philco' },
+  { src: philipsLogo, alt: 'Philips', href:'/philips' },
+  { src: tclLogo, alt: 'TCL', href:'/tcl' },
+  { src: positivoLogo, alt: 'Positivo', href:'/positivo' },
 ]

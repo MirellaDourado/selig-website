@@ -25,7 +25,7 @@ function Header({ boxShadow }) {
           <Link to='/' className={ style.logo }>
             <img src={ logo } alt='nome SeLiG em laranja'/>
           </Link>
-          <nav id={ style.nav } className={clicked && style.active}>
+          <nav id={ style.nav } className={clicked ? style.active : ''}>
             <button onClick={() => setClicked(!clicked)}>
               <HiMenu className={ style.btnMobile }/>
             </button>

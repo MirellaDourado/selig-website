@@ -17,7 +17,7 @@ function OurService() {
         <p>Assistência para produtos dentro de garantia</p>
         <p>Descubra marcas e produtos com assistência técnica autorizada para produtos dentro da garantia</p>
         </div>
-        <Link to={'/dentro-de-garantia'} class={ styles.knowMoreBtn }>
+        <Link to={'/dentro-de-garantia'} className={ styles.knowMoreBtn }>
           Saiba mais
         </Link>
       </div>
@@ -28,7 +28,7 @@ function OurService() {
           <p> Assistência para produtos fora de garantia </p>
           <p> Descubra  marcas e produtos com assistência técnica autorizada para produtos fora da garantia</p>
         </div>
-        <Link to={'/fora-de-garantia'} class={ styles.knowMoreBtn }>
+        <Link to={'/fora-de-garantia'} className={ styles.knowMoreBtn }>
           Saiba mais
         </Link>
       </div>
@@ -39,7 +39,7 @@ function OurService() {
           <p> Assistência técnica especializada </p>
           <p> Descubra as marcas e produtos com assistência técnica especializada </p>
         </div>
-        <Link to={'/especializada'} class={ styles.knowMoreBtn }>
+        <Link to={'/especializada'} className={ styles.knowMoreBtn }>
           Saiba mais
         </Link>
       </div>

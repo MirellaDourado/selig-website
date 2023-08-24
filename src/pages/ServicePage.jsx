@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import PropTypes from 'prop-types';  
 import Footer from '../components/Footer';
-import style from './productPage.module.css';
+import style from '../styles/productPage.module.css';
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import {useEffect} from 'react'
 

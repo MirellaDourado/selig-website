@@ -115,5 +115,4 @@ export const partnersArray = [
   { src: hapvidaLogo, alt: 'Philco' },
   { src: magaluLogo, alt: 'Magalu' },
   { src: hportuguesLogo, alt: 'Hospital Português' },
-  // { src: positivoLogo, alt: 'Positivo', href:'/positivo' },
 ]

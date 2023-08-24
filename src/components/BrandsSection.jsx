@@ -20,31 +20,31 @@ function BrandsSection() {
         <div>
           <div className={ styles.brandWrapper }>
             <div>  
-              <img src={ lgLogo } className={ styles.brand }  style={ { width: '7em'}}/>
+              <img src={ lgLogo } className={ styles.brand } />
             </div>
             <Link to='/lg'>SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ samsungLogo } className={ styles.brand } style={ { width: '7em'}}/>
+              <img src={ samsungLogo } className={ styles.brand } />
             </div>
             <Link to='/samsung'>SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ motorolaLogo } className={ styles.brand } style={ { width: '8em'}}/>
+              <img src={ motorolaLogo } className={ styles.brand } />
             </div>
             <Link to='/motorola'>SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ aocLogo } className={ styles.brand }  style={ { width: '7em'}}/>
+              <img src={ aocLogo } className={ styles.brand } />
             </div>
             <Link to='/aoc'> SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ appleLogo } className={ styles.brand } style={ { width: '3.5em' }} />
+              <img src={ appleLogo } className={ styles.brand } />
             </div>
             <Link to='/apple'> SAIBA MAIS</Link>
           </div>
@@ -52,25 +52,25 @@ function BrandsSection() {
         <div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ philcoLogo } className={ styles.brand }  style={ { width: '7em'}} />
+              <img src={ philcoLogo } className={ styles.brand } />
             </div>
             <Link to='/philco'> SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ philipsLogo } className={ styles.brand } style={ { width: '6em' }}  />
+              <img src={ philipsLogo } className={ styles.brand } />
             </div>
             <Link to='/philips'> SAIBA MAIS</Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ tclLogo } className={ styles.brand }  style={ { width: '7em'}}/>
+              <img src={ tclLogo } className={ styles.brand } />
             </div>
             <Link to='/tcl'> SAIBA MAIS </Link>
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ positivoLogo } className={ styles.brand } style={{ width: '7.5em' }} />
+              <img src={ positivoLogo } className={ styles.brand } />
             </div>
             <Link to='/positivo'> SAIBA MAIS </Link>
           </div>

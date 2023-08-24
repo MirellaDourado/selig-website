@@ -31,7 +31,7 @@ function Header({ boxShadow }) {
             </button>
             <ul id={ style.menu }>
               <li>
-                <Link to='/selig'> A SeLiG </Link>
+                <Link to='/selig' onClick={() => setClicked(false)}> A SeLiG </Link>
               </li>
               <li>
                 <a href='/#services' onClick={() => setClicked(false)}> Nossos Serviços </a>

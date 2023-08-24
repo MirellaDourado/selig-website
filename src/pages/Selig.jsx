@@ -11,11 +11,11 @@ function Selig() {
   return (
     <>
     <Header boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px'} />
-    <main style={{ paddingTop: '15vh'}}>
+    <main>
       <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0' className='whatsapp-icon'>
       <AiOutlineWhatsApp />
       </a>
-      <div>
+      <div className={ styles.aboutSelig }>
         <h2 className='h-config h2-config' style={{ marginTop: '1rem'}}> Sobre Nós </h2>
           <hr className='hr' />
         <div>

@@ -73,8 +73,13 @@
   }
 
   #nav.active #menu {
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 4rem);
     visibility: visible;
+    overflow: hidden;
+  }
+
+  #nav.active #menu::-webkit-scrollbar {
+    display: none;
   }
 
   #nav #menu > li {

@@ -7,6 +7,15 @@ import philcoLogo from './assets/philco-logo.png'
 import philipsLogo from './assets/Philips_logo_new.svg.png';
 import tclLogo from './assets/tcl-logo-2.png'
 import positivoLogo from './assets/positivo-logo.png'
+import casasBahia from './assets/casasBahia-logo.png';
+import fastLogo from './assets/fast-logo.png';
+import ferreiraLogo from './assets/ferreira-logo.png';
+import gaibimLogo from './assets/gaibim-logo.png';
+import gazinLogo from './assets/gazin-logo.png';
+import hapvidaLogo from './assets/hapvida-logo.png';
+import magaluLogo from './assets/magalu-logo.png';
+import hportuguesLogo from './assets/portugues-logo.png';
+
 
 
 export const brandsArray = [
@@ -95,4 +104,16 @@ export const logosArray = [
   { src: philipsLogo, alt: 'Philips', href:'/philips' },
   { src: tclLogo, alt: 'TCL', href:'/tcl' },
   { src: positivoLogo, alt: 'Positivo', href:'/positivo' },
+]
+
+export const partnersArray = [
+  { src: casasBahia, alt: 'Casas Bahia' },
+  { src: fastLogo, alt: 'Fast Shop' },
+  { src: ferreiraLogo, alt: 'Ferreira Costa' },
+  { src: gaibimLogo, alt: 'Lojas Gaibim' },
+  { src: gazinLogo, alt: 'Gazin Atacado' },
+  { src: hapvidaLogo, alt: 'Philco' },
+  { src: magaluLogo, alt: 'Magalu' },
+  { src: hportuguesLogo, alt: 'Hospital Português' },
+  // { src: positivoLogo, alt: 'Positivo', href:'/positivo' },
 ]

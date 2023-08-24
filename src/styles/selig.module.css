@@ -1,0 +1,55 @@
+.brandsCarousel {
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  align-items: flex-end;
+  height: 13rem;
+  flex-direction: row;
+}
+
+.brandsCarousel > div {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.brandsCarousel > div > div {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+  
+.card {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 8rem;
+  align-items: center;
+}
+
+.cardWrapper > div > img {
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.brandsCarousel::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: 10rem;
+  }
+
+  .cardWrapper > div > img {
+    width: 10rem;
+  }
+}

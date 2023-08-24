@@ -14,7 +14,7 @@ function Header({ boxShadow }) {
     <section className={ style.classMom }>
       <section className={ style.headerSection }>
         <div>
-          <a target="_blank" rel='noopener noreferrer'href='https://www.instagram.com/assistenciaselig/'> FALE CONOSCO <AiOutlineWhatsApp fontSize='1.2em' className={ style.icon }/> </a>
+          <a target="_blank" rel='noopener noreferrer'href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0'> FALE CONOSCO <AiOutlineWhatsApp fontSize='1.2em' className={ style.icon }/> </a>
           <a target="_blank" rel='noopener noreferrer'href='https://www.instagram.com/assistenciaselig/'> INSTAGRAM <BiLogoInstagramAlt fontSize='1.2em' className={ style.icon }/> </a>
           <a target="_blank" rel='noopener noreferrer'href='https://www.tiktok.com/assistenciaselig/'>  TIKTOK <BiLogoTiktok fontSize='1.2em' className={ style.icon }/> </a>
           <a target="_blank" rel='noopener noreferrer'href='https://www.linkedin.com/company/assistencia-selig/'> LINKEDIN <BiLogoLinkedin fontSize='1.2em' className={ style.icon }/> </a>

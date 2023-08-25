@@ -33,7 +33,7 @@
 }
 
 .brandArea > img {
-  /* width: /; */
+  width: 20rem;
 }
 
 .warrantySection {
@@ -115,7 +115,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .headerSection {
     padding-top: 6.5rem;
     margin-bottom: 5em;
@@ -150,7 +150,7 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
-    height: 77vh;
+    /* height: 77vh; */
   }
 
   .warrantySection {
@@ -186,7 +186,6 @@
     justify-content: space-between;
     font-size: 1em;
     width: 22rem;
-    height: 16rem;
     margin-top: 0.7rem;
   }
   

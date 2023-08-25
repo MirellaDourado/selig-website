@@ -5,7 +5,7 @@ import style from '../styles/productPage.module.css';
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import {useEffect} from 'react'
 
-function BrandPage({ title, warranty, description }) {
+function BrandPage({ title, warranty, description, src, alt }) {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, []);
@@ -18,7 +18,7 @@ function BrandPage({ title, warranty, description }) {
       </section>
       <main>
         <section className={ style.brandArea }>
-          <img></img>
+          <img src={src} alt={alt} />
           <p> { description } </p>
         </section>
         <section className={ style.warrantySection }>
@@ -71,6 +71,8 @@ BrandPage.propTypes = {
     without1: PropTypes.array.isRequired,
     without2: PropTypes.array,
   }),
+  alt: PropTypes.string,
+  src: PropTypes.string,
   description: PropTypes.string.isRequired,
 }
 

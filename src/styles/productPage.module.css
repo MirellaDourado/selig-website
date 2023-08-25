@@ -33,7 +33,7 @@
 }
 
 .brandArea > img {
-  /* border: 2px pink solid; */
+  /* width: /; */
 }
 
 .warrantySection {
@@ -131,7 +131,8 @@
     width: 90%;
     margin-bottom: 3em;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .brandArea > p {
@@ -140,7 +141,7 @@
   }
 
   .brandArea > img {
-    width: 50%;
+    width: 30rem;
   }
 
   .warrantySection {

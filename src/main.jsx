@@ -11,10 +11,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Routes>
       <Route element={ <Home /> } path='/'/>
       <Route element={ <Selig /> } path='/selig'/>
-      { brandsArray.map(({title, description, path, warranty}) => (<Route
+      { brandsArray.map(({title, description, path, warranty, src, alt}) => (<Route
         key={ title }
         element={
         <BrandPage title={title}
+          src={src}
+          alt={alt}
           warranty={warranty}
           description={description} /> }
           path={path}

@@ -13,12 +13,12 @@ function PreOs () {
         <div className={ styles.meetPreOs }>
           <h3 className='h-config h3-config'> Conheça a pre-OS </h3>
           <p>Agilize o seu atendimento no momento da visita a nossa loja utilizando a pre-OS. Você poderá agendar sua assistência de uma maneira mais rápida e personalizada, podendo verificar o andamento do seu equipamente preenchendo o formulário.</p>
-          <button> Preencher OS </button>
+          <a href='https://websolution.care-br.com/selig/pre_os.php' target='_blank'  rel="noreferrer"> <button> Preencher OS </button> </a>
         </div>
         <div className={ styles.seePreOs }>
           <h3 className='h-config h3-config'> Consulte sua OS </h3>
           <p> Caso já tenha preenchido uma pre-OS e deseje saber o andamento da nossa assistência, clique no botão abaixo, informe o seu nome e o número da OS que deseja ver. </p>
-          <button> Consultar OS </button>
+          <a href='https://websolution.care-br.com/selig/' target='_blank'  rel="noreferrer" > <button> Consultar OS </button> </a>
         </div>
       </div>
       <Carousel className={ styles.preOsCarousel } interval={3000} variant='dark' controls={false}>

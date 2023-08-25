@@ -32,16 +32,14 @@ function Header({ boxShadow }) {
             <ul id={ style.menu }>
               <li>
                 <Link to='/selig' onClick={() => setClicked(false)}> A SeLiG </Link>
-                <div>
-                  <ul className={style.hideMenu}>
-                    <a><li>Assistência para produtos dentro de garantia</li></a>
-                    <a><li>Assistência para produtos fora de garantia</li></a>
-                    <a><li>Assistência técnica especializada</li></a>
-                  </ul>
-                </div>
               </li>
               <li>
                 <a href='/#services' onClick={() => setClicked(false)}> Nossos Serviços </a>
+                <div className={style.hidenMenu}>
+                    <a href='/dentro-de-garantia'><li>Assistência para produtos dentro de garantia</li></a>
+                    <a href='/fora-de-garantia'><li>Assistência para produtos fora de garantia</li></a>
+                    <a href='/especializada'><li>Assistência técnica especializada</li></a>
+                </div>
               </li>
               <li>
                 <a href='/#contact' onClick={() => setClicked(false)}> Contato </a>

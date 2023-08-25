@@ -1,5 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
+import banner1 from '../assets/banner-1.png';
+import banner2 from '../assets/banner-2.png';
+import banner3 from '../assets/banner-3.png'
 
 function Carrousel() {
   return(
@@ -8,15 +11,22 @@ function Carrousel() {
         <Carousel.Item interval={4000}>
           <img
           className='banner'
-          src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
-          alt="Image One"
+          src={banner1}
+          alt="Conserto de Apple com peças originais do fabricante"
           />
         </Carousel.Item>
         <Carousel.Item interval={4000}>
           <img
           className='banner'
-          src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
-          alt="Image Two"
+          src={ banner2 }
+          alt="Única distribuidora de LG da Bahia"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+          <img
+          className='banner'
+          src={ banner3 }
+          alt="A SeLiG instala seu ar condicionado"
           />
         </Carousel.Item>
       </Carousel>

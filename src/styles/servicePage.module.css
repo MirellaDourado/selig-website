@@ -37,16 +37,16 @@
   align-items: center;
   background-color: #eeeeeee5;
   gap: 1rem;
-  padding: 1rem 0 2rem 0;
+  padding: 1rem 0 0 0;
   margin-bottom: 2rem;
-  width: 95%;
-  margin: auto;
+  /* width: 95%; */
+  /* margin: ; */
   margin-bottom: 4rem;
 }
 
 .warrantySection > h3 {
-  font-size: 1.8em;
-  margin-left: 4rem;
+  font-size: 1em;
+  margin-left: 2rem;
 }
 
 .contact {
@@ -74,19 +74,9 @@
   border: none;
   color: white;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   border-radius: 8px;
   font-size: 1.1em;
-}
-
-.brandsWrapper {
-  background-color: #eeeeeea9;
-  display: flex;
-  flex-direction: column;
-  padding: 1.5em;
-  width: 90%;
-  margin: auto;
-  margin-top: 4rem;
 }
 
 .brandsCarousel {
@@ -99,7 +89,6 @@
   grid-row-start: 2;
   grid-row-end: 5;
   align-items: flex-end;
-  height: 13rem;
   flex-direction: row;
 }
 
@@ -107,15 +96,15 @@
   display: flex;
   flex-direction: row;
   margin: auto;
-  gap: 2.5rem;
+  gap: 1.6rem;
 }
 
 .brandsCarousel > div >div:nth-of-type(1) {
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 
 .brandsCarousel > div > div {
-  width: 30rem;
+  width: 4rem;
   margin: auto;
   display: flex;
   align-items: center;
@@ -130,12 +119,12 @@
   justify-content: space-between;
   align-items: center;
   width: 10rem;
-  height: 10rem;
+  height: 7rem;
   align-items: center;
 }
 
 .cardWrapper > a > img {
-  width: 10rem;
+  width: 5rem;
   border-radius: 50%;
 }
 
@@ -145,6 +134,11 @@
 
 .brandsWrapper > div:nth-of-type(1) {
   display: none;
+}
+
+.contact > h4 {
+  font-size: 1.5em;
+  text-align: center;
 }
 
 
@@ -167,6 +161,10 @@
     justify-content: space-between;
   }
 
+  .brandsCarousel > div > div {
+    width: 30rem;
+  }
+
   .brandArea > p {
     font-size: 1em;
     width: 45%;
@@ -174,6 +172,10 @@
 
   .brandArea > img {
     width: 50%;
+  }
+
+  .brandsCarousel > div >div:nth-of-type(1) {
+    margin-left: 5rem;
   }
   
   .warrantySection > div > div > h4 {
@@ -183,6 +185,7 @@
  
   .warrantySection > h3 {
     font-size: 2.4em;
+    margin-left: 4rem;
   }
 
   .contact {

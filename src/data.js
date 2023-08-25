@@ -117,11 +117,11 @@ export const serviceArray = [
   { title: 'Assistência para produtos em garantia',
     description: '',
     path: '/dentro-de-garantia',
-    brands: [{src: lgLogo, alt: 'Logo da LG'}, {src: tclLogo, alt: 'Logo da TLC'}, {src: aocLogo, alt: 'Logo da AOC'}, {src: positivoLogo, alt: 'Logo da Positivo'}]},
+    brands: [{src: lgLogo, alt: 'Logo da LG', path:'/lg'}, {src: tclLogo, alt: 'Logo da TLC', path: '/tcl'}, {src: aocLogo, alt: 'Logo da AOC'}, {src: positivoLogo, alt: 'Logo da Positivo', path: '/positivo'}]},
   { title: 'Assistência para produtos fora de garantia',
     description: '',
     path: '/fora-de-garantia',
-    brands: [{src: lgLogo, alt: 'Logo da LG'}, {src: motorolaLogo,  alt: 'Logo da Motorola'} , {src: positivoLogo, alt: 'Logo da Positivo'}, {src: samsungLogo, alt: 'Logo da Samsung'}, {src: philipsLogo, alt: 'Logo da Philips'}, {src: aocLogo, alt: 'Logo da AOC'}, {src: tclLogo, alt: 'Logo da TCL'}, {src: philcoLogo, alt: 'Logo da Philco'}, {src: appleLogo, alt: 'Logo da Apple'}]
+    brands: [{src: lgLogo, alt: 'Logo da LG', href: '/lg'}, {src: motorolaLogo,  alt: 'Logo da Motorola', href: '/motorola'} , {src: positivoLogo, alt: 'Logo da Positivo', href: '/positivo'}, {src: samsungLogo, alt: 'Logo da Samsung', href: '/positivo'}, {src: philipsLogo, alt: 'Logo da Philips', href: '/philips'}, {src: aocLogo, alt: 'Logo da AOC', href: '/aoc'}, {src: tclLogo, alt: 'Logo da TCL', href: '/tcl'}, {src: philcoLogo, alt: 'Logo da Philco', href: '/philco'}, {src: appleLogo, alt: 'Logo da Apple', href: 'apple'}]
   },
   {title: 'Epecializada',
     description: '',

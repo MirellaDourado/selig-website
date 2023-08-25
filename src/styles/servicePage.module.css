@@ -18,20 +18,6 @@
   letter-spacing: 0.15em;
 }
 
-.brandArea {
-  display: flex;
-  flex-direction: column;
-  width: 95%;
-  margin: auto;
-  margin-bottom: 2rem;
-  justify-content: space-between;
-}
-
-.brandArea > p {
-  font-size: 0.8em;
-  text-align: justify;
-}
-
 .warrantySection {
   display: flex;
   align-items: center;
@@ -39,8 +25,6 @@
   gap: 1rem;
   padding: 1rem 0 0 0;
   margin-bottom: 2rem;
-  /* width: 95%; */
-  /* margin: ; */
   margin-bottom: 4rem;
 }
 
@@ -132,10 +116,6 @@
   display: none;
 }
 
-.brandsWrapper > div:nth-of-type(1) {
-  display: none;
-}
-
 .contact > h4 {
   font-size: 1.5em;
   text-align: center;
@@ -143,6 +123,10 @@
 
 
 @media (min-width: 1200px) {
+  .warrantySection {
+    flex-direction: column;
+  }
+
   .headerSection {
     padding-top: 6.5rem;
     margin-bottom: 5em;
@@ -154,28 +138,20 @@
     margin: 0.4em;
   }
 
-  .brandArea {
-    width: 90%;
-    margin-bottom: 3em;
-    flex-direction: row;
-    justify-content: space-between;
+  .brandsCarousel > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    height: fit-content;
   }
 
   .brandsCarousel > div > div {
-    width: 30rem;
+    width: fit-content;
+    height: fit-content;
   }
 
-  .brandArea > p {
-    font-size: 1em;
-    width: 45%;
-  }
-
-  .brandArea > img {
-    width: 50%;
-  }
-
-  .brandsCarousel > div >div:nth-of-type(1) {
-    margin-left: 5rem;
+  .brandsCarousel > div > div:nth-of-type(1) {
+    margin-left: 0;
   }
   
   .warrantySection > div > div > h4 {
@@ -207,5 +183,12 @@
   .contact > h4 {
     font-size: 2em;
   }
-  
+
+  .cardWrapper > a > img {
+    width: 9rem;
+  }
+
+  .card {
+    height: 12rem;
+  }
 }

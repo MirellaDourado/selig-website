@@ -70,7 +70,7 @@ function BrandsSection() {
           </div>
           <div className={ styles.brandWrapper }>
             <div>
-              <img src={ positivoLogo } className={ styles.brand } />
+              <img src={ positivoLogo } className={ styles.brand }/>
             </div>
             <Link to='/positivo'> SAIBA MAIS </Link>
           </div>

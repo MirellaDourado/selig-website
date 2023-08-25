@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.headerSection {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.78) 100%), url(../assets/pexels-sergei-starostin-6636497.jpg), lightgray 50% / cover no-repeat;
+  background-position: center;
+  color: white;
+  background-size: cover;
+  padding-top: 6rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  height: 25vh;
+}
+
+.headerSection > h2  {
+  font-size: 1.5em;
+  margin: 0.4em;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+}
+
+.brandArea {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.brandArea > p {
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+.warrantySection {
+  display: flex;
+  align-items: center;
+  background-color: #eeeeeee5;
+  gap: 1rem;
+  padding: 1rem 0 2rem 0;
+  margin-bottom: 2rem;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.warrantySection > h3 {
+  font-size: 1.8em;
+  margin-left: 4rem;
+}
+
+.contact {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.contact > p {
+  color: #000;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  margin: 1rem 0px 1rem 0px;
+}
+
+.contact > button {
+  background-color: #23C25D;
+  border: none;
+  color: white;
+  width: 100%;
+  height: 3rem;
+  border-radius: 8px;
+  font-size: 1.1em;
+}
+
+.brandsWrapper {
+  background-color: #eeeeeea9;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.brandsCarousel {
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  align-items: flex-end;
+  height: 13rem;
+  flex-direction: row;
+}
+
+.brandsCarousel > div {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 2.5rem;
+}
+
+.brandsCarousel > div >div:nth-of-type(1) {
+  margin-left: 5rem;
+}
+
+.brandsCarousel > div > div {
+  width: 30rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+  
+.card {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  align-items: center;
+}
+
+.cardWrapper > a > img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.brandsCarousel::-webkit-scrollbar {
+  display: none;
+}
+
+.brandsWrapper > div:nth-of-type(1) {
+  display: none;
+}
+
+
+@media (min-width: 1200px) {
+  .headerSection {
+    padding-top: 6.5rem;
+    margin-bottom: 5em;
+    height: 35vh;
+  }
+
+  .headerSection > h2  {
+    font-size: 3em;
+    margin: 0.4em;
+  }
+
+  .brandArea {
+    width: 90%;
+    margin-bottom: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .brandArea > p {
+    font-size: 1em;
+    width: 45%;
+  }
+
+  .brandArea > img {
+    width: 50%;
+  }
+  
+  .warrantySection > div > div > h4 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+ 
+  .warrantySection > h3 {
+    font-size: 2.4em;
+  }
+
+  .contact {
+    width: 90%;
+    height: 40vh;
+    justify-content: space-evenly;
+  }
+  
+  .contact > p {
+    font-size: 1.2em;
+  }
+  
+  .contact > button {
+    width: 50rem;
+    height: 4rem;
+    font-size: 1.5em;
+  }
+
+  .contact > h4 {
+    font-size: 2em;
+  }
+  
+}

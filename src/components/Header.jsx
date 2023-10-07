@@ -37,8 +37,8 @@ function Header({ boxShadow }) {
                 <a href='/#services' onClick={() => setClicked(false)}> Nossos Serviços </a>
                 <div className={style.hidenMenu}>
                   <Link to='/dentro-de-garantia'><li>Assistência para produtos dentro de garantia</li></Link>
-                    <a href='/fora-de-garantia'><li>Assistência para produtos fora de garantia</li></a>
-                    <a href='/especializada'><li>Assistência técnica especializada</li></a>
+                  <Link to='/fora-de-garantia'><li>Assistência para produtos fora de garantia</li></Link>
+                  <Link to='/especializada'><li>Assistência técnica especializada</li></Link>
                 </div>
               </li>
               <li>
